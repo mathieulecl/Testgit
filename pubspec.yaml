@@ -1,0 +1,50 @@
+name: dashboard
+description: "Projet Web Scrapping"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.36.0 # Use the latest version available
+  intl: ^0.17.0
+  dio: ^5.4.1
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+    # - images/a_dot_ham.jpeg
+    - assets/image/
+    - assets/cryptocurrencies_db_detailed.json
+    - assets/Binance.png
+    - assets/bitcoin.png
+    - assets/Chainlink.png
+    - assets/ethereum.png
+    - assets/xrp.png
+    - assets/tether.png
+    - assets/dogecoin.png
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+
+
+
+
+
+
+
+
+
