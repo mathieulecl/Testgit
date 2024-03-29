@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, we are Leclercq Mathieu, Le Chevalier Adèle and Martins Gaël</h1>
 <h3 align="center">Developers at ESME Sudria</h3>
 
-- 🔭 We are currently working on **The Dashboard Project**
+- 🔭 We are currently working on **The JS Project**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
