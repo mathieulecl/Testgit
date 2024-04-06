@@ -1,0 +1,52 @@
+name: dashboard
+description: "Projet Web Scrapping"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.66.2 # Use the latest version available
+  intl: ^0.17.0
+  dio: ^5.4.1
+  url_launcher: ^6.2.5
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  provider: ^6.0.5
+  gauge_chart: ^1.0.2
+  gap: ^3.0.1
+  gauge_indicator: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  http: 1.2.1
+  flutter_dotenv: ^5.0.2
+  intl: ^0.17.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icon/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+
